@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:buster
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 

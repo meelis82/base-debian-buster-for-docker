@@ -4,7 +4,7 @@ apt-get update
 
 DEBIAN_FRONTEND=noninteractive apt-get install -y lsb-release openssl ca-certificates wget
 
-PACKAGE=puppetlabs-release-$(lsb_release -sc).deb
+PACKAGE=puppet7-release-$(lsb_release -sc).deb
 
 wget "https://apt.puppetlabs.com/${PACKAGE}" -O "/tmp/${PACKAGE}"
 

@@ -4,6 +4,6 @@ class build::supervisor::supervisor {
   file { '/etc/supervisor/conf.d/supervisord.conf':
     ensure => present,
     source => 'puppet:///modules/build/etc/supervisor/conf.d/supervisord.conf',
-    mode => 644
+    mode => "644"
   }
 }
