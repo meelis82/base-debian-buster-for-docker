@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 

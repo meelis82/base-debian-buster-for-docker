@@ -1,3 +1,3 @@
 base:
-  image: dockerizedrupal/base-debian-buster:2.0.0
+  image: dockerizedrupal/base-debian-bullseye:2.0.0
   hostname: base
